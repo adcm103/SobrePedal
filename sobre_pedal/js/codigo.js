@@ -82,7 +82,7 @@ function personajesCaminando(){
     $('.scottSprite').css({"display":"block", "margin-left":"927px"});
   }
   else if (posX >= 9562) { 
-  $('.radkyEnfrente').css({"display":"block", "margin-left":"333px"});
+  $('.radkyEnfrente').css({"display":"block", "margin-left":"342px"});
   $('.final').css({"display":"none"});
   $('.gunnar').css({"display":"none"});
   $('.tonelli').css({"display":"none"});

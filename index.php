@@ -37,6 +37,7 @@ $row7 = mysqli_fetch_array($result);
 
 	<script defer src="sobre_pedal/js/jquery-3.3.1.min.js"></script>
 
+
 </head>
 <body>
 
@@ -46,6 +47,13 @@ $row7 = mysqli_fetch_array($result);
 	</div>
 
 	<div class="inicio">
+        <div class="inicioanim">
+		<p class="anim">
+
+		CLICK
+
+		</p>
+        </div>
 		<img src="sobre_pedal/img/inicio.png">
 	</div>
 
@@ -69,7 +77,7 @@ $row7 = mysqli_fetch_array($result);
 			<div id="Administrador">
 		<button class="btn" style="float: right; background-color: #faa854; margin: 10px; opacity: 0.6; ">
 			<a href="sobre_pedal/php/contactanos.php" style="color: white;">
-			Contactanos 
+			Contáctanos  
 		</a>
 		</button>
 
@@ -107,12 +115,10 @@ $row7 = mysqli_fetch_array($result);
 		</div>
 
 		<div class="contedor_txt">
-			<i class="btnTxt b1 fas fa-comment"></i>
+			<i class="btnTxt b1 anima fas fa-comment"></i>
 			<div class="CuadroTxt">
 				<p> 
-				Es momento de conocer a los amigos de mi abuelo, las personas más influyentes del ciclismo.
-				Con este reloj, podre ir al pasado y asi enterarme de lo que realmente sucedió durante
-				estas épocas.
+				Es momento de conocer a los amigos de mi abuelo, las personas más influyentes del ciclismo. Con este reloj, podre ir al pasado y así enterarme de lo que realmente sucedió durante estas épocas.
 				</p>
 
 			</div>
@@ -165,13 +171,13 @@ $row7 = mysqli_fetch_array($result);
 
 			?>
 		</div>
-		<i class="btnTxt b2 fas fa-comment"></i>
+		<i class="btnTxt b2 anima fas fa-comment"></i>
 
 		
 		<div class="contedor_txt2">
 			<div class="CuadroTxt2 radkytxt">
 				<p class="contenidoR"> 
-				Disculpe<br>¿es usted James Moore, el ganador de la primera carrera de ciclismo?
+				Disculpe<br>¿Es usted James Moore, el ganador de la primera carrera de ciclismo?
 				</p>
 				<i class="siguiente Dsig1 fas fa-arrow-circle-right"></i>
 				<i class="siguiente Dsig2 fas fa-arrow-circle-right"></i>
@@ -186,8 +192,7 @@ $row7 = mysqli_fetch_array($result);
 		<div class="contedor_txt2 jamesConTxt">
 			<div class="CuadroTxt2 jamesTxt">
 				<p class="contenidoj">
-				Si soy yo. <br> ¿tambien sabias que en este parque
-				fue en donde se realizó la carrera?
+				Si soy yo. <br> ¿También sabias que en este parque fue en donde se realizó la carrera?
 				</p>
 
 				<div id="pequeñoGif">
@@ -208,7 +213,7 @@ $row7 = mysqli_fetch_array($result);
 			<div id="Administrador">
 		<button class="btn" style="float: right; background-color: #faa854; margin: 10px; opacity: 0.6; ">
 			<a href="sobre_pedal/php/contactanos.php" style="color: white;">
-			Contactanos 
+			Contáctanos  
 		</a>
 		</button>
 
@@ -246,7 +251,7 @@ $row7 = mysqli_fetch_array($result);
 			<img src="sobre_pedal/img/sprites/peter.png">
 		</div>
 
-		<i class="btnTxt b4 fas fa-comment"></i>
+		<i class="btnTxt b4 anima fas fa-comment"></i>
 
 		
 		<div class="contedor_txt2">
@@ -261,7 +266,7 @@ $row7 = mysqli_fetch_array($result);
 
 		</div>
 
-<i class="btnTxt b5 fas fa-comment"></i>
+<i class="btnTxt b5 anima fas fa-comment"></i>
 
 		
 		<div class="contedor_txt2">
@@ -277,7 +282,7 @@ $row7 = mysqli_fetch_array($result);
 		</div>
 
 		
-		<i class="btnTxt b6 fas fa-comment"></i>
+		<i class="btnTxt b6 anima fas fa-comment"></i>
 
 		
 		<div class="contedor_txt2">
@@ -298,7 +303,7 @@ $row7 = mysqli_fetch_array($result);
 			<div id="Administrador">
 		<button class="btn" style="float: right; background-color: #faa854; margin: 10px; opacity: 0.6; ">
 			<a href="sobre_pedal/php/contactanos.php" style="color: white;">
-			Contactanos 
+			Contáctanos  
 		</a>
 		</button>
 
@@ -327,7 +332,7 @@ $row7 = mysqli_fetch_array($result);
 		<div id="Administrador">
 		<button class="btn" style="float: right; background-color: #faa854; margin: 10px; opacity: 0.6; ">
 			<a href="sobre_pedal/php/contactanos.php" style="color: white;">
-			Contactanos 
+			Contáctanos  
 		</a>
 		</button>
 
@@ -358,7 +363,7 @@ $row7 = mysqli_fetch_array($result);
 
 		</h1></div>
 
-		<i class="btnTxt b7 fas fa-comment"></i>
+		<i class="btnTxt b7 anima fas fa-comment"></i>
 
 		
 		<div class="contedor_txt2">
@@ -371,13 +376,13 @@ $row7 = mysqli_fetch_array($result);
 		</div>
 
 
-		<i class="btnTxt b8 fas fa-comment"></i>
+		<i class="btnTxt b8 anima fas fa-comment"></i>
 
 		<div class="contedor_txt2 tonelliConTxt">
 			<div class="CuadroTxt2 tonelliTxt">
 				<p class="contenidoT">
 					Ese tonto de Camillo, el Dueño del Periódico Corriere Della Sera, me a robado 
-					mi idea, pero no dejaé las cosas asi, peleare por ella.
+					mi idea, pero no dejaré las cosas asi, peleare por ella.
 				</p>
 				<div class="intervinculo intervinculoJuego">Ir</div>
 			</div>	
@@ -393,7 +398,7 @@ $row7 = mysqli_fetch_array($result);
 		<div id="Administrador">
 		<button class="btn" style="float: right; background-color: #faa854; margin: 10px; opacity: 0.6; ">
 			<a href="sobre_pedal/php/contactanos.php" style="color: white;">
-			Contactanos 
+			Contáctanos  
 		</a>
 		</button>
 
@@ -430,7 +435,7 @@ $row7 = mysqli_fetch_array($result);
 			<img src="sobre_pedal/img/bicicletaRural.png"width="80%">
 		</div>
 
-		<i class="btnTxt b9 fas fa-comment"></i>
+		<i class="btnTxt b9 anima fas fa-comment"></i>
 
 		
 
@@ -449,7 +454,7 @@ $row7 = mysqli_fetch_array($result);
 
 
 
-<i class="btnTxt b10 fas fa-comment"></i>
+<i class="btnTxt b10 anima fas fa-comment"></i>
 
 		
 		<div class="contedor_txt2">
@@ -475,7 +480,7 @@ $row7 = mysqli_fetch_array($result);
 		<div id="Administrador">
 		<button class="btn" style="float: right; background-color: #faa854; margin: 10px; opacity: 0.6; ">
 			<a href="sobre_pedal/php/contactanos.php" style="color: white;">
-			Contactanos 
+			Contáctanos  
 		</a>
 		</button>
 
@@ -526,7 +531,7 @@ $row7 = mysqli_fetch_array($result);
 
 
 
-		<i class="btnTxt b13 fas fa-comment"></i>
+		<i class="btnTxt b13 anima fas fa-comment"></i>
 
 		<div class="contedor_txt2">
 			<div class="CuadroTxt2 radkytxt4">
@@ -546,7 +551,7 @@ $row7 = mysqli_fetch_array($result);
 
 
 
-		<i class="btnTxt b14 fas fa-comment"></i>
+		<i class="btnTxt b14 anima fas fa-comment"></i>
 
 
 		<div class="contedor_txt2">
@@ -583,7 +588,7 @@ $row7 = mysqli_fetch_array($result);
 				<div id="ContenedorLogo">
 		<button class="btn" style="float: right; background-color: #faa854; margin: 10px; opacity: 0.8; ">
 			<a href="sobre_pedal/php/contactanos.php" style="color: white;">
-			Contactanos 
+			Contáctanos  
 		</a>
 		</button>
 

@@ -10,7 +10,7 @@
 body{
 	overflow-y: hidden;	
 	height: 100vh;
-	font-family: century gothic;
+	font-family: century gothic !important;
 
 
 }
@@ -369,6 +369,7 @@ animation-iteration-count: infinite;
 
 .fecha{
 	font-size: 80px; 
+	font-family: century gothic, bold !important;
 	color: white;
 	width: 12.5%;
 	height: 100vh;
@@ -387,7 +388,7 @@ animation-iteration-count: infinite;
 	 color: #fc8000;
 	 cursor: pointer;
 	 filter: drop-shadow(0 0 10px rgba(105,98,94,0.4));
-	 padding-top:20px; 
+	 padding-top:15px; 
 	
 }
 
@@ -408,7 +409,7 @@ animation-iteration-count: infinite;
 }
 
 .CuadroTxt2{
-	width: 210px;
+	width: 220px;
     height: 190px;
 	background: white;
 	border-radius: 10px;
@@ -630,6 +631,7 @@ animation-iteration-count: infinite;
 }
 
 .juego img{
+
 	position: relative;
 
 	
@@ -688,27 +690,32 @@ animation-iteration-count: infinite;
 
 .gunnarSprites2{
 	display: none;
-	width: 118px;
+	width: 125px;
     height: 336px;
     background: url(../img/sprites/GUNNAR_CAMINANDO2.png);
     z-index: 5;
     margin: 0px;
     padding: 0;
-    margin: 301px 0px 0px 1400px;
+    margin: 301px 0px 0px 788px;
     position: absolute;
-    animation: caminandoGunnar2 1.2s steps(11) 1 running;}
+    animation: caminandoGunnarR 1.5s steps(11) 1 running;
 
- @keyframes caminandoGunnar2{
+	}
+
+ @keyframes caminandoGunnarR{
 
  	0%{
- 		background-position: 1700px;
- 		margin-right: 1400px;
+ 		background-position: 1536px;
+ 		margin-right: 788px;
  		margin-left: -100px;
  	}
 
 	100%{
-		margin-right: 1400px;
-		background-position: -1700px;
+		margin-right: 788px;
+		background-position: -1536px;
+		
+
+
 	}
 
 }

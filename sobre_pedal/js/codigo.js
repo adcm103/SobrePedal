@@ -42,6 +42,7 @@ function ra(){
 
 
 function fechas(){
+
   if(posX > 1067 && posX < 1400){
     $('.f1').fadeTo("slow",1).css({"display":"block", "fontSize" : "5em"});
     $('#avisoRA').css({"display":"none"});
@@ -89,9 +90,7 @@ function personajesCaminando(){
   $('.peter').css({"display":"none"});
   $('.james').css({"display":"none"});
   } 
-  else if (posX >= 6800) {
-    $('.gunnarSprites2').css({"display":"block"});
-  }
+  
 }
 
 document.onkeydown = pulsarTecla
@@ -260,7 +259,9 @@ $(".Isigu3").click(function(){
  $(".b10").click(function(){
   $(".gunnartxt").css({"display":"none"});
  });
+
   $(".Dsig5").click(function(){
+    $('.gunnarSprites2').css({"display":"block"});
    $(".b10").css({"display":"block"});
     $(".b9").css({"display":"none"});
     $(".gunnartxt").fadeIn('fast').css({"display":"block"});
@@ -428,7 +429,7 @@ $(".libreria").click(function(){
   $(".b14").click(function(){
     $(".motociclistaTxt").fadeIn('fast');
     $(".motociclistaTxt").fadeIn('fast').css({"display":"none"});
-    $(".radkytxt4").css({"display":"block"});
+    
   });
 
 

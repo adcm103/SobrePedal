@@ -421,14 +421,15 @@ $row7 = mysqli_fetch_array($result);
 		</h1></div>
 
 
+		<div class="gunnarSprites2"></div>
 
-		<div class="gunnar">
+		<!-- <div class="gunnar">
 			<?php
-			echo " <img src='" . "sobre_pedal/" . $row6["foto"] 
-			. "'>";
+			//echo " <img src='" . "sobre_pedal/" . $row6["foto"] 
+			//. "'>";
 
 			?>
-		</div>
+		</div> -->
 
 		
 		<div class="biciRural">
@@ -537,7 +538,7 @@ $row7 = mysqli_fetch_array($result);
 			<div class="CuadroTxt2 radkytxt4">
 
 				<p class="contenidoS"> 
-				Disculpa<br>Que te ocurre?
+				Disculpa<br>¿Que te ocurre?
 				</p>
 				<i class="siguiente Dsig10 fas fa-arrow-circle-right"></i>
 				<i class="siguiente Dsig11 fas fa-arrow-circle-right"></i>

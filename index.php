@@ -91,7 +91,7 @@ $row7 = mysqli_fetch_array($result);
 
 		<div class="popUp">
 			<img src="sobre_pedal/img/popUp.jpg">
-			<i class="cerrar fas fa-times-circle"></i>
+			<i class="cerrar2 fas fa-times-circle"></i>
 		</div>
 
 
@@ -149,6 +149,7 @@ $row7 = mysqli_fetch_array($result);
 				<img src="sobre_pedal/img/Gif_parque_terminado.gif" width="60%">
 	
 		</div>
+
 
 		<div class="fecha f1"><h1>
 			

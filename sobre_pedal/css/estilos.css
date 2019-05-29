@@ -290,23 +290,31 @@ animation-iteration-count: infinite;
 	top: 10px;
 }
 
+.cerrar2{
+	color: #fc8000;
+	font-size: 50px;
+	position: absolute;
+	z-index: 4;
+	right: 180px;
+	top: 10px;
+}
+
 .reloj{
-	width: 72px;
-	height: 72px;
+	width: 6.5%;
+	height: 84px;
 	cursor: pointer;
-	background-image: url(../img/reloj.png);
+	background-image: url(../img/Reloj.png);
+	background-repeat: no-repeat;
 	position: absolute;
-	margin: 438px 0 0 65% ;
-}	
+	margin: 424px 0 0 65% ;
+	animation: animReloj 1s steps(2) infinite running;
 
-.reloj:hover{
-	width: 72px;
-	height: 72px;
-	cursor: pointer;
-	background-image: url(../img/reloj1.png);
-	position: absolute;
-	margin: 438px 0 0 65% ;
+}
 
+@keyframes animReloj{
+	100%{
+		background-position: -179px;
+	}
 }
 
 .CuadroTxt{

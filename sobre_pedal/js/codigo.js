@@ -167,11 +167,16 @@ function soltarTecla() {
     $("#avisoRA").fadeOut('fast');
     $('body').removeClass('quieto2');
 
-
+   });
+   
+$(".cerrar2").click(function(){
+    $(".popUp").fadeOut('fast');
    });
 
-   $(".reloj").click(function(){
+
+$(".reloj").click(function(){
       $("#portal").fadeIn('fast').css({"display":"block"});
+      $('body').removeClass('quieto2');
     });
 
    $(".cgif").click(function(){

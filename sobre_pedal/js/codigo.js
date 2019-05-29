@@ -326,7 +326,7 @@ $(".Dsigu8").click(function(){
 
 
  $(".Isig1").click(function(){
- 	$(".radkytxt").css({"display":"block","height" : "225px"});
+ 	$(".radkytxt").css({"display":"block","height" : "170px"});
  	$(".contenidoR").text('¿En serio? Me podrias contar como fue esta carrera');
  	$(".jamesTxt").css({"display":"none"});
  	$(".Dsig1").css({"display":"none"});

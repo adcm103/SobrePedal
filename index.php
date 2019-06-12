@@ -96,7 +96,15 @@ $row7 = mysqli_fetch_array($result);
 
 
 		<div id="avisoRA">
-			<img src="sobre_pedal/img/RA_diseno.png">
+			<div style=" position: absolute;">
+			<img src="sobre_pedal/img/RA_diseno.png" style="z-index: 1;">
+
+			<i class="btnRA fas fa-download"></i>
+			<a href="https://www.mediafire.com/file/fv5343lhx85sez3/sobrepedal.apk/file" class="btn btnapk" style=" margin-left: 76px; font-size: 20px; color: gray; position: relative; bottom: 356px;}">
+			Descargar APK </a>
+
+			</div>
+			
 			<i class="cerrar fas fa-times-circle"></i>
 
 		</div>

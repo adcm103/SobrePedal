@@ -368,6 +368,25 @@ animation-iteration-count: infinite;
 
 
 
+.btnRA{
+	 color: gray;
+    font-size: 46px;
+    position: relative;
+    z-index: 4;
+    right: 668px;
+    bottom: 63px;
+    opacity: 0.6;
+
+
+}
+
+.btnapk:hover{
+
+	color: #fc8000 !important;
+}
+
+
+
 #seccion2{
 	width: 12.4%;
 	height: 100vh;

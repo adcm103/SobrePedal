@@ -89,6 +89,7 @@ function personajesCaminando(){
   $('.tonelli').css({"display":"none"});
   $('.peter').css({"display":"none"});
   $('.james').css({"display":"none"});
+  $('.gunnarSprites2').css({"display":"none"});
   } 
   
 }

@@ -16,7 +16,9 @@
 
 	<style>
 
-
+		body{
+			overflow: hidden;
+			}
 		
 		.fondo{
 
@@ -102,6 +104,8 @@
 	}
 
 	.texto{
+		font-family: century gothic;
+		text-align: center;
 		float:left;
 		width: 40%;
 		height: 50vh;
@@ -109,8 +113,9 @@
 	}
 
 	.nombres{
+		font-family: century gothic;
 		float: right;
-		font-size:32px; 
+		font-size:28px; 
 	}
 
 
@@ -158,7 +163,7 @@
 			<br>
 			<br>
 			<br>
-			<h2>QUIENES SOMOS</h2>
+			<h2 style="font-weight: bold;" >QUIENES SOMOS</h2>
 			<br>
 			<p>Hola somos las creadoras de Sobre Pedal, también somos aprendices del Sena en Producción de multimedia, nos caracterizamos por la creatividad e innovación.
 			Esperamos que puedas disfrutar de esta gran aventura al igual que nosotras. 

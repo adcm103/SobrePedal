@@ -126,7 +126,7 @@ $row7 = mysqli_fetch_array($result);
 			<i class="btnTxt b1 anima fas fa-comment"></i>
 			<div class="CuadroTxt">
 				<p> 
-				Es momento de conocer a los amigos de mi abuelo, las personas más influyentes del ciclismo. Con este reloj, podre ir al pasado y así enterarme de lo que realmente sucedió durante estas épocas.
+				Es momento de conocer a los amigos de mi abuelo, las personas más influyentes del ciclismo. Con este reloj, podré ir al pasado y así enterarme de lo que realmente sucedió durante esas épocas.
 				</p>
 
 			</div>

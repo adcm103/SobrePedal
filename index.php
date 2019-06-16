@@ -201,7 +201,7 @@ $row7 = mysqli_fetch_array($result);
 		<div class="contedor_txt2 jamesConTxt">
 			<div class="CuadroTxt2 jamesTxt">
 				<p class="contenidoj">
-				Si soy yo. <br> ¿También sabias que en este parque fue en donde se realizó la carrera?
+				Si soy yo. <br> ¿También sabías que en este parque fue en donde se realizó la carrera?
 				</p>
 
 				<div id="pequeñoGif">
@@ -297,7 +297,7 @@ $row7 = mysqli_fetch_array($result);
 		<div class="contedor_txt2">
 			<div class="CuadroTxt2 petertxt2">
 				<p class="contenidoP"> 
-			Hola Radky,<br>Gusto en conocerte,así que te apasiona el ciclismo, yo soy el que tuvo la idea de crear un campeonato en pista a nivel mundial.
+			Hola Radky,<br>Gusto en conocerte, así que te apasiona el ciclismo, yo soy el que tuvo la idea de crear un campeonato en pista a nivel mundial.
 				</p>
 
 			</div>
@@ -391,7 +391,7 @@ $row7 = mysqli_fetch_array($result);
 			<div class="CuadroTxt2 tonelliTxt">
 				<p class="contenidoT">
 					Ese tonto de Camillo, el Dueño del Periódico Corriere Della Sera, me a robado 
-					mi idea, pero no dejaré las cosas asi, peleare por ella.
+					mi idea, pero no dejaré las cosas así, peleare por ella.
 				</p>
 				<div class="intervinculo intervinculoJuego">Ir</div>
 			</div>	
@@ -452,7 +452,7 @@ $row7 = mysqli_fetch_array($result);
 		<div class="contedor_txt2">
 			<div class="CuadroTxt2 radkytxt4">
 				<p class="contenidoR3"> 
-				¡Wooouw!<br>Que linda Bici.
+				¡Wooow!<br>Que linda Bici.
 				</p>
 				<i class="siguiente Dsig5 fas fa-arrow-circle-right"></i>
 				<i class="siguiente Dsigu6 fas fa-arrow-circle-right"></i>
@@ -470,7 +470,7 @@ $row7 = mysqli_fetch_array($result);
 		<div class="contedor_txt2">
 			<div class="CuadroTxt2 gunnartxt">
 				<p class="contenidoG"> 
-				Oye, ¿Que te pasa?<br>Esa es mi bicicleta.
+				¡Oye!, ¿Que te pasa?<br>Esa es mi bicicleta.
 				</p>
 				<i class="siguiente Isigu3 fas fa-arrow-circle-left"></i>
 				<i class="siguiente Isigu4 fas fa-arrow-circle-left"></i>
@@ -568,7 +568,7 @@ $row7 = mysqli_fetch_array($result);
 			<div class="CuadroTxt2 motociclistaTxt">
 
 				<p class="contenidoS">
-				 No puedo creer que un niño sea mejor que yo, usando una simple bicicleta.
+				 No puedo creer que un niño sea mejor que yo usando una simple bicicleta.
 				</p>
 
 				<div id="pequeñoGifBmx">

@@ -133,10 +133,13 @@
 	</form>
 	
 	
-			<?php
+				<?php
 			
   			if (isset($_GET["registrado"])){
 			echo "<br>" . "<div style='background-color:rgba(252,112,0,0.8);' ' class='btn  w-100'>!!Registro exitoso!! </div>";
+		}
+			if (isset($_GET["error"])){
+			echo "<br>" . "<div style='background-color:rgba(252,112,0,0.8);' ' class='btn  w-100'> El correo ya esta registrado </div>";
 		}
 		?>
 
